@@ -8,7 +8,7 @@ exec("sudo sh cambios_regla7.sh");
 exec("sudo sh cambios_regla8.sh");
 exec("sudo sh cambios_regla9.sh");
 exec("sudo sh cambios_en_todas_las_reglas.sh");
-header("Location:http://51.254.97.10:7010");
+header("Location:http://54.36.190.79:7079");
 ?>
 
 	

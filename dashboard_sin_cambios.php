@@ -1,3 +1,3 @@
 <?php 
-header("Location:http://51.254.97.10:7010");
+header("Location:http://54.36.190.79:7079");
 ?>
