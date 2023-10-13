@@ -12,6 +12,7 @@ exec("sudo sed -i '730c CALLSIGN: $indicativo' /opt/HBlink3/hblink.cfg");
 exec("sudo sed -i '830c CALLSIGN: $indicativo' /opt/HBlink3/hblink.cfg");
 exec("sudo sed -i '930c CALLSIGN: $indicativo' /opt/HBlink3/hblink.cfg");
 exec("sudo sed -i '1030c CALLSIGN: $indicativo' /opt/HBlink3/hblink.cfg");
+exec("sudo sed -i '1130c CALLSIGN: $indicativo' /opt/HBlink3/hblink.cfg");
 
 header("Location:editar_reglas.php");	
 
