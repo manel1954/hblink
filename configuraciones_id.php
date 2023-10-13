@@ -12,7 +12,7 @@ exec("sudo sed -i '731c RADIO_ID: $id' /opt/HBlink3/hblink.cfg");
 exec("sudo sed -i '831c RADIO_ID: $id' /opt/HBlink3/hblink.cfg");
 exec("sudo sed -i '931c RADIO_ID: $id' /opt/HBlink3/hblink.cfg");
 exec("sudo sed -i '1031c RADIO_ID: $id7' /opt/HBlink3/hblink.cfg");
-exec("sudo sed -i '1131c RADIO_ID: $id7' /opt/HBlink3/hblink.cfg");
+exec("sudo sed -i '1131c RADIO_ID: $id' /opt/HBlink3/hblink.cfg");
 
 header("Location:editar_reglas.php");	
 
