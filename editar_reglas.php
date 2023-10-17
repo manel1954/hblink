@@ -400,94 +400,9 @@ h6{
 </div><!-- "col-md-4 -->
 <!-- =======================================================================================-->
 
-<!--============== CAJA 3 ==================================================================-->       
-<div class="col-md-1"></div>
-    <div class="col-md-2 caja3"><br>     
-        <h5>A DEMANDA</h5>
-
-<form method="post" action="regla2_demanda.php">
-    <button class="btn btn-danger btn-sm btn-block" type="submit">REGLA 2</button><br>
-</form>
-
-<form method="post" action="regla3_demanda.php">
-    <button class="btn btn-danger btn-sm btn-block" type="submit">REGLA 3</button><br>
-</form>
-
-<form method="post" action="regla4_demanda.php">
-    <button class="btn btn-danger btn-sm btn-block" type="submit">REGLA 4</button><br>
-</form>
-
-<form method="post" action="regla5_demanda.php">
-    <button class="btn btn-danger btn-sm btn-block" type="submit">REGLA 5</button><br>
-</form>
-
-<form method="post" action="regla6_demanda.php">
-    <button class="btn btn-danger btn-sm btn-block" type="submit">REGLA 6</button><br>
-</form>
-
-<form method="post" action="regla7_demanda.php">
-    <button class="btn btn-danger btn-sm btn-block" type="submit">REGLA 7</button><br>
-</form>
-
-<form method="post" action="regla8_demanda.php">
-    <button class="btn btn-danger btn-sm btn-block" type="submit">REGLA 8</button><br>
-</form>
-
-<form method="post" action="regla9_demanda.php">
-    <button class="btn btn-danger btn-sm btn-block" type="submit">REGLA 9</button><br>
-</form>
-
-<form method="post" action="reglaxlx_demanda.php">
-    <button class="btn btn-danger btn-sm btn-block" type="submit">REGLA XLX</button><br>
-</form>
 
 
-</div><!-- "col-md-4 -->
-<!-- =======================================================================================-->
 
-<!--============== CAJA 4 ==================================================================-->       
-<div class="col-md-1"></div>
-    <div class="col-md-2 caja4"><br>     
-        <h5>PERMANENTE</h5>
-
-<form method="post" action="regla2_permanente.php">
-    <button class="btn btn-success btn-sm btn-block" type="submit">REGLA 2</button><br>
-</form>
-
-<form method="post" action="regla3_permanente.php">
-    <button class="btn btn-success btn-sm btn-block" type="submit">REGLA 3</button><br>
-</form>
-
-<form method="post" action="regla4_permanente.php">
-    <button class="btn btn-success btn-sm btn-block" type="submit">REGLA 4</button><br>
-</form>
-
-<form method="post" action="regla5_permanente.php">
-    <button class="btn btn-success btn-sm btn-block" type="submit">REGLA 5</button><br>
-</form>
-
-<form method="post" action="regla6_permanente.php">
-    <button class="btn btn-success btn-sm btn-block" type="submit">REGLA 6</button><br>
-</form>
-
-<form method="post" action="regla7_permanente.php">
-    <button class="btn btn-success btn-sm btn-block" type="submit">REGLA 7</button><br>
-</form>
-
-<form method="post" action="regla8_permanente.php">
-    <button class="btn btn-success btn-sm btn-block" type="submit">REGLA 8</button><br>
-</form>
-
-<form method="post" action="regla9_permanente.php">
-    <button class="btn btn-success btn-sm btn-block" type="submit">REGLA 9</button><br>
-</form>
-
-<form method="post" action="reglaxlx_permanente.php">
-    <button class="btn btn-success btn-sm btn-block" type="submit">REGLA XLX</button><br>
-</form>
-
-</div><!-- "col-md-4 -->
-</div><!-- row -->
 <!-- =======================================================================================-->
 <br>
 
