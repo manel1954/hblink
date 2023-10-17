@@ -304,13 +304,13 @@ h6{
 <div class="row">
     <div class="col-md-6">
 <form method="post" action="aplicar_cambios_en_todas_las_reglas.php">
-    <button style="color:#fff;" class="btn btn-warning btn-md btn-block" type="submit">GRABAR TODOS LOS CAMBIOS Y VOLVER AL DASHBOARD</button>
+    <button style="color:#fff;font-size:18px;" class="btn btn-warning btn-md btn-block" type="submit">GRABAR TODOS LOS CAMBIOS</button>
 </form>
     </div>
 
     <div class="col-md-6">
 <form method="post" action="dashboard_sin_cambios.php">
-    <button style="color:#fff;" class="btn btn-danger btn-md btn-block" type="submit">VOLVER AL DASHBOARD SIN CAMBIOS</button>
+    <button style="color:#fff;font-size:18px;" class="btn btn-danger btn-md btn-block" type="submit">SALIR SIN GUARDAR CAMBIOS</button>
 </form>
     </div>
 </div><!-- row -->

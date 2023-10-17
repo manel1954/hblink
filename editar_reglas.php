@@ -250,7 +250,12 @@ background-image: url(img/fondo_02.png);
     height: 380px;
     background:rgb(55, 27, 213);
     border-radius: 0px 8px 8px 0px;
-    }    
+    } 
+    .caja8{
+    height: 520px;
+    background:#292224;
+    border-radius: 8px 8px 8px 8px;
+    }   
 h4{
     text-align:center;
     color:#FFFFFF;
@@ -301,13 +306,13 @@ h6{
 
 <div class="col-md-6">
 <form method="post" action="dashboard.php">
-    <button style="font-size:18px;"class="btn btn-warning btn-sm btn-block" type="submit">RESTAURAR SERVICIOS y VOLVER AL DASHBOARD</button>
+    <button style="font-size:18px;"class="btn btn-warning btn-sm btn-block" type="submit">GRABAR TODOS LOS CAMBIOS</button>
 </form>
 </div>
 
 <div class="col-md-6">
 <form method="post" action="dashboard_sin_cambios.php">
-    <button style="font-size:18px;"class="btn btn-success btn-sm btn-block" type="submit">SALIR Y VOLVER AL DASHBOARD</button>
+    <button style="font-size:18px;"class="btn btn-success btn-sm btn-block" type="submit">SALIR SIN GUARDAR CAMBIOS</button>
 </form>
 </div>
 
@@ -400,101 +405,16 @@ h6{
 </div><!-- "col-md-4 -->
 <!-- =======================================================================================-->
 
-<!--============== CAJA 3 ==================================================================-->       
-<div class="col-md-1"></div>
-    <div class="col-md-2 caja3"><br>     
-        <h5>A DEMANDA</h5>
 
-<form method="post" action="regla2_demanda.php">
-    <button class="btn btn-danger btn-sm btn-block" type="submit">REGLA 2</button><br>
-</form>
+<div class="col-md-1"></div>  
 
-<form method="post" action="regla3_demanda.php">
-    <button class="btn btn-danger btn-sm btn-block" type="submit">REGLA 3</button><br>
-</form>
-
-<form method="post" action="regla4_demanda.php">
-    <button class="btn btn-danger btn-sm btn-block" type="submit">REGLA 4</button><br>
-</form>
-
-<form method="post" action="regla5_demanda.php">
-    <button class="btn btn-danger btn-sm btn-block" type="submit">REGLA 5</button><br>
-</form>
-
-<form method="post" action="regla6_demanda.php">
-    <button class="btn btn-danger btn-sm btn-block" type="submit">REGLA 6</button><br>
-</form>
-
-<form method="post" action="regla7_demanda.php">
-    <button class="btn btn-danger btn-sm btn-block" type="submit">REGLA 7</button><br>
-</form>
-
-<form method="post" action="regla8_demanda.php">
-    <button class="btn btn-danger btn-sm btn-block" type="submit">REGLA 8</button><br>
-</form>
-
-<form method="post" action="regla9_demanda.php">
-    <button class="btn btn-danger btn-sm btn-block" type="submit">REGLA 9</button><br>
-</form>
-
-<form method="post" action="reglaxlx_demanda.php">
-    <button class="btn btn-danger btn-sm btn-block" type="submit">REGLA XLX</button><br>
-</form>
-
-
-</div><!-- "col-md-4 -->
 <!-- =======================================================================================-->
 
-<!--============== CAJA 4 ==================================================================-->       
-<div class="col-md-1"></div>
-    <div class="col-md-2 caja4"><br>     
-        <h5>PERMANENTE</h5>
-
-<form method="post" action="regla2_permanente.php">
-    <button class="btn btn-success btn-sm btn-block" type="submit">REGLA 2</button><br>
-</form>
-
-<form method="post" action="regla3_permanente.php">
-    <button class="btn btn-success btn-sm btn-block" type="submit">REGLA 3</button><br>
-</form>
-
-<form method="post" action="regla4_permanente.php">
-    <button class="btn btn-success btn-sm btn-block" type="submit">REGLA 4</button><br>
-</form>
-
-<form method="post" action="regla5_permanente.php">
-    <button class="btn btn-success btn-sm btn-block" type="submit">REGLA 5</button><br>
-</form>
-
-<form method="post" action="regla6_permanente.php">
-    <button class="btn btn-success btn-sm btn-block" type="submit">REGLA 6</button><br>
-</form>
-
-<form method="post" action="regla7_permanente.php">
-    <button class="btn btn-success btn-sm btn-block" type="submit">REGLA 7</button><br>
-</form>
-
-<form method="post" action="regla8_permanente.php">
-    <button class="btn btn-success btn-sm btn-block" type="submit">REGLA 8</button><br>
-</form>
-
-<form method="post" action="regla9_permanente.php">
-    <button class="btn btn-success btn-sm btn-block" type="submit">REGLA 9</button><br>
-</form>
-
-<form method="post" action="reglaxlx_permanente.php">
-    <button class="btn btn-success btn-sm btn-block" type="submit">REGLA XLX</button><br>
-</form>
-
-</div><!-- "col-md-4 -->
-</div><!-- row -->
-<!-- =======================================================================================-->
-<br>
 
 <!--============== CAJA 5 CONFIGURACIONES ==================================================================--> 
      
-<div class="row">
-    <div class="col-md-4 caja5"><br>     
+
+    <div class="col-md-4 caja8"><br>     
         <h5>CONFIGURACIÓN GENERAL</h5>
   
 <form method="post" action="configuraciones_indicativo.php">
@@ -532,11 +452,14 @@ h6{
 
 <br>
 </div><!-- "col-md-4 -->
+</div><!-- row -->
 <!-- =======================================================================================-->
 
+<br>
+
 <!--============== CAJA 6 CONFIGURACIONES ==================================================================--> 
-     
-    <div class="col-md-4 caja6"><br>     
+<div class="row">     
+    <div class="col-md-5 caja6"><br>     
     <h5>CONFIGURA LOCATIONS</h5>   
 
 <form method="post" action="location_regla2.php">
@@ -574,24 +497,14 @@ h6{
 </div><!-- "col-md-4 -->
 <!-- =======================================================================================-->
 
-
+<div class="col-md-2"></div> 
 
 
 <!--============== CAJA 7 CONFIGURACIONES ==================================================================--> 
       
 
-    <div class="col-md-4 caja7"><br>     
+    <div class="col-md-5 caja7"><br>     
     <h5>CONFIGURA LOCATIONS</h5>
-  
-
-
-
-
-
-
-
-
-
 
 <form method="post" action="location_regla7.php">
         <input name="location7" class="fuente_boton3 form-control" placeholder="Introduce Ciudad + Enter"> 
