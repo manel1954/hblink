@@ -2,7 +2,7 @@
 
 $activa=exec("awk 'NR==10' /var/www/html/hblink/status_reglas.cfg");
 
-if($activa == "REGLAXLX=OFF"){
+if($activa == "REGLA10=OFF"){
 exec("sudo sh activar_reglaxlx.sh");
 
 
