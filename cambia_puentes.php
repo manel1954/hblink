@@ -37,7 +37,7 @@ $puentes = substr("$puentes", 15, 2);
 
 <style type="text/css">
     body{
-background-image: url(img/fondo_02.png);
+background-image: url(img/fondo_hblink3.png);
     }
 .sistema{
     height: 50px;
