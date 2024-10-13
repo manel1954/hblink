@@ -76,7 +76,7 @@ $port = substr("$port", 6, 5);
 
 <style type="text/css">
     body{
-background-image: url(img/fondo_hblink3.png);
+background-image: url(images/fondo_hblink3.png);
     }
 .sistema{
     height: 50px;

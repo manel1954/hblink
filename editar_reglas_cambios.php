@@ -118,7 +118,7 @@ $options9 = exec("sed -n '9p' /var/www/html/hblink/status_regla9.cfg");
 
 <style type="text/css">
     body{
-background-image: url(img/fondo_hblink3.png);
+        background-image: url(images/fondo_hblink3.png);
     }
 .color_verde{
     color:#21FF06;
