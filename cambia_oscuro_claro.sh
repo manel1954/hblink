@@ -11,3 +11,4 @@ cp -R HBmonitor_CLARO HBmonitor
 chmod 777 -R HBmonitor
 
 sudo systemctl restart hbmon
+sudo systemctl restart hblink
