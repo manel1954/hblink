@@ -1,7 +1,7 @@
 <?php 
 session_start();
 
-$peers = exec("sed -n '336p' /opt/HBmonitor_OSCURO/index_template.html");
+$peers = exec("sed -n '336p' /opt/HBmonitor/index_template.html");
 $peers = substr("$peers", 15, 2);
 
 ?>

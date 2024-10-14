@@ -1,7 +1,7 @@
 <?php 
 session_start();
 
-$puentes = exec("sed -n '337p' /opt/HBmonitor_OSCURO/index_template.html");
+$puentes = exec("sed -n '337p' /opt/HBmonitor/index_template.html");
 $puentes = substr("$puentes", 15, 2);
 
 ?>

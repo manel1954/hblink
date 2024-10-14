@@ -4,7 +4,7 @@ session_start();
 
 $repeat=($_POST["repeat"]);
 
-exec("sudo sed -i '335c var miTexto1 = $repeat; ' /opt/HBmonitor_OSCURO/index_template.html");
+exec("sudo sed -i '335c var miTexto1 = $repeat; ' /opt/HBmonitor/index_template.html");
 
 
 

@@ -1,7 +1,7 @@
 <?php 
 session_start();
 
-$repeat = exec("sed -n '335p' /opt/HBmonitor_OSCURO/index_template.html");
+$repeat = exec("sed -n '335p' /opt/HBmonitor/index_template.html");
 $repeat = substr("$repeat", 15, 2);
 
 ?>

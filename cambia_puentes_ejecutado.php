@@ -4,7 +4,7 @@ session_start();
 
 $puentes=($_POST["puentes"]);
 
-exec("sudo sed -i '337c var miTexto3 = $puentes; ' /opt/HBmonitor_OSCURO/index_template.html");
+exec("sudo sed -i '337c var miTexto3 = $puentes; ' /opt/HBmonitor/index_template.html");
 
 
 
