@@ -301,7 +301,6 @@ h6{
                 <span class="color_verde"><?php echo $peers;?></span>
             </div> 
             <br>
-            <span class="cambio">Cuando hayas cambiado el número haz click en DASHBOARD OSCURO</span>
 </form>
 
 
