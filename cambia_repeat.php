@@ -293,7 +293,7 @@ h6{
       
 
 <div class="col-md-6 caja7"><br>     
-    <h5>introduce los peers activos</h5>
+    <h5>introduce los repeat activos</h5>
 
 <form method="post" action="cambia_repeat_ejecutado.php">
         <input name="repeat" class="fuente_boton3 form-control" placeholder="Introduce el número + Enter"> 
